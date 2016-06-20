@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="500dp"
+    android:layout_height="300dp">
+
+    <TimePicker
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/timePicker"
+        android:timePickerMode="spinner"
+        android:clickable="false"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="45dp"
+            android:background="#00000000"
+            android:scaleType="centerInside"
+            android:onClick="regist"
+            android:id="@+id/regist"
+            android:src="@drawable/regist"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:checked="false"
+            android:id="@+id/onOff"
+            android:layout_gravity="right|top" />
+
+
+
+    </LinearLayout>
+
+
+    <!--
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:layout_margin="6sp"
+        >
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="3"
+        android:textSize="12sp"
+        android:layout_margin="6sp"
+        android:background="#EEE"
+        >
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:layout_margin="6sp"
+        >
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Your Address"
+            />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/btCANCEL"
+            android:text="CANCEL"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"/>
+        <Button
+            android:id="@+id/btACCEPT"
+            android:text="ACCEPT"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/btCANCEL"
+            android:layout_toLeftOf="@+id/btCANCEL" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="6"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            />
+    </LinearLayout>
+    -->
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.songchiyun.comebackhome.Google_Map" />
+
+    <TextView android:id="@+id/timer"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="45sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#d4434343"
+
+        />
+
+
+
+    <ImageButton
+        android:background="#00000000"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/home_button"
+        android:onClick = "setHome"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/home_button"/>
+    <ImageButton
+        android:background="#00000000"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/time_button"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="105dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="bottom"
+        android:onClick="SetTime"
+        android:src="@drawable/time_button"/>
+    <ImageButton
+        android:background="#00000000"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/music_button"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="195dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="bottom"
+        android:onClick="musicList"
+        android:src="@drawable/music_button"/>
+    <ImageButton
+        android:background="#00000000"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/subway_button"
+        android:onClick="showSubMain"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="285dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/subway_button"/>
+
+
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_gravity="right|top"
+        android:checked = "true"/>
+
+
+</FrameLayout>

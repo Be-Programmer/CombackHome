@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <ImageButton
+                android:background="#00000000"
+                android:layout_marginTop="20dp"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/regist"
+                android:onClick = "Register"
+                />
+
+            <ImageButton
+                android:background="#00000000"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ok"
+                android:onClick = "map"
+                />
+            <EditText
+                android:layout_width="120dp"
+                android:hint="주소를 입력하시오"
+                android:textSize="15dp"
+                android:textColorHint="#9c9d9e"
+                android:layout_height="wrap_content"
+                android:id="@+id/address"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
