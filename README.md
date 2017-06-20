@@ -36,7 +36,7 @@ Notify the nearest subway station and connect user’s position
 ## Screenshot
 
 <table border="1" width="450">
-  <tr height="20">
+  <tr height="20" width = "450">
   <th width = "150"> <h2> 1. Not set destination </th>
   <th width = "150"> <h2> 2. Set destination </th>
   <th width = "150"> <h2> 3. Complete to set destination  </th>
