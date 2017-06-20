@@ -34,7 +34,7 @@ Notify the nearest subway station and connect user’s position
 - Service component state should be changed along with the mode of application
 
 ## Screenshot
-
+<!--
 <table border="1" width="450">
   <tr height="20" width = "450">
   <th width = "150"> <h2> 1. Not set destination </th>
@@ -47,10 +47,10 @@ Notify the nearest subway station and connect user’s position
   <td> <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d3.png" width="100" height="200"> </td>
   </tr>
 </table>
-
-| 1. Not set destination | 2. Set destination | 3. Complete to set destination |
-| :--:|:--:|:--:|
-|<img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d1.png" width="100" height="200">| <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d2.png" width="100" height="200">| <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d3.png" width="100" height="200">|
+-->
+ 1. Not set destination | 2. Set destination | 3. Complete to set destination 
+ :--:|:--:|:--:
+<img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d1.png" width="100" height="200">| <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d2.png" width="100" height="200">| <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d3.png" width="100" height="200">
 
 <br>
 
