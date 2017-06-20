@@ -35,6 +35,19 @@ Notify the nearest subway station and connect user’s position
 
 ## Screenshot
 
+<table border="1" width="450">
+  <tr height="20">
+  <th width = "150">  1. Not set destination </th>
+  <th width = "150">  2. Set destination </th>
+  <th width = "150">  3. Complete to set destination </th>
+  </tr>
+  <tr height = "200">  
+  <td> <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d1.png" width="100" height="200"> </td>
+  <td> <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d2.png" width="100" height="200"> </td>
+  <td> <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d3.png" width="100" height="200"> </td>
+  </tr>
+</table>
+
 | 1. Not set destination | 2. Set destination | 3. Complete to set destination |
 | :--:|:--:|:--:|
 |<img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d1.png" width="100" height="200">| <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d2.png" width="100" height="200">| <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d3.png" width="100" height="200">|
