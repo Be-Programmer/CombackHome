@@ -1,5 +1,8 @@
 # CombackHome
 
+
+<img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/log.png" width="400" height="300"> <br>
+
 <br>
 
 ## Motivation
