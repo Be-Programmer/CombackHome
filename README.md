@@ -37,9 +37,7 @@ Notify the nearest subway station and connect user’s position
 
 | 1. Not set destination | 2. Set destination | 3. Complete to set destination |
 | :--:|:--:|:--:|
-|<img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d1.png" width="100" height="200">|
-<img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d2.png" width="100" height="200">|
-<img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d3.png" width="100" height="200">|
+|<img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d1.png" width="100" height="200">| <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d2.png" width="100" height="200">| <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/d3.png" width="100" height="200">|
 
 <br>
 
