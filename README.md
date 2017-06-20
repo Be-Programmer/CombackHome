@@ -6,10 +6,10 @@
 Make automatic alarm application which notify departure time to destination
 
 ## Our Function
-- <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/b1.png" width="100" height="100"> Set the dstination <br>
-- <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/b2.png" width="100" height="100"> Set the curfew time <br>
-- <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/b3.png" width="100" height="100"> Choice the alarm music among user’s phone <br>
--  <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/b4.png" width="100" height="100">Show the subway route to arrive destination <br>
+- <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/b1.png" width="50" height="50"> Set the dstination <br>
+- <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/b2.png" width="50" height="50"> Set the curfew time <br>
+- <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/b3.png" width="50" height="50"> Choice the alarm music among user’s phone <br>
+-  <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/b4.png" width="50" height="50">Show the subway route to arrive destination <br>
 
 
 <br>
@@ -20,7 +20,7 @@ Notify the nearest subway station and connect user’s position
 
 ## System Flow
 
-
+  <img src="https://github.com/Be-Programmer/CombackHome/blob/develop/datas/system.png" width="400" height="300">
 ## Key Techniques
 
 - Receive and split Subway data and store them in SQLite Database 
