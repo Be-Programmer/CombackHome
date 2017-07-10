@@ -33,6 +33,13 @@ Notify the nearest subway station and connect user’s position
 - Compute depart time(alarm time) by considering distance and time table of subway
 - Service component state should be changed along with the mode of application
 
+## Strength
+
+- Automatically receive the alarm service which is based on user’s location
+- Because of using embedded data, user can receive the service through only using GPS  
+- Can be used for other purpose
+
+
 ## Screenshot
 <!--
 <table border="1" width="450">
